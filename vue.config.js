@@ -2,7 +2,7 @@ const path = require('path')
 
 module.exports = {
     publicPath: process.env.NODE_ENV === 'production' ?
-        '/mango-bill' : '/',
+        '/blue-money-website' : '/',
     lintOnSave: false,
     chainWebpack: config => {
         const dir = path.resolve(__dirname, 'src/assets/icons') // 当前目录
